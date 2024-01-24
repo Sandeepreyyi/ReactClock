@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+*{
+  padding: 0px;
+  margin: 0px;
+  /* box-sizing: border-box; */
+}
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +41,20 @@
     transform: rotate(360deg);
   }
 }
+.App h1{
+  font: optional;
+  font-family: 'Courier New', Courier, monospace;
+  color: red;
+}
+.routing{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  /* min-height: 1000vh; */
+  /* background-color: rebeccapurple; */
+  margin-top: 50px;
+}
+.App{
+  background-color: #000000;
+}
+
